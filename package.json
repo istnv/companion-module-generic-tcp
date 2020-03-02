@@ -1,14 +1,14 @@
 {
-	"name": "generic-tcp",
+	"name": "gentcp",
 	"version": "1.0.0",
 	"api_version": "1.0.0",
 	"keywords": [
 		"Generic", "tcp"
 	],
-	"manufacturer": "Generic",
-	"product": "TCP (or Telnet) Connection",
+	"manufacturer": "generic",
+	"product": "tcp-ip",
 	"shortname": "tcp",
-	"description": "Companion Module for generic TCP/Telnet communication",
+	"description": "Companion Module for generic tcp/telnet communication",
 	"main": "gentcp.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"

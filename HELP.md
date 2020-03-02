@@ -1,8 +1,8 @@
-**Generic TCP commands (Telnet)**
+**Generic TCP (Telent)**
 
-This is a generic TCP command module.
+This is a generic command module.
 
-If you are using the `Command` action, data is transmitted as entered without interpretation or conversion. You may select to add an optional line termination.
+If you are using the `Command` action, all serial data is passed through without interpretation or conversion with optional line termination added.
 
 If you use the `HEX based command` action, the hex values you enter will be converted and sent as binary data. The line termination option is not added to HEX commands.
 

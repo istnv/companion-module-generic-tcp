@@ -63,14 +63,14 @@ instance.prototype.config_fields = function () {
 			id:    'info',
 			width: 12,
 			label: 'Information',
-			value: 'This module provides access to a TCP (Telnet) device.'
+			value: 'This module controls a USR-IOT USR-TCP232-302 device by <a href="https://www.usriot.com/products/rs232-to-ethernet-converter.html" target="_new">USR-IOT</a>.'
 		},
 		{
 			type:  'textinput',
 			id:    'host',
 			label: 'Device IP',
 			width: 12,
-			tooltip: 'The IP of the device',
+			tooltip: 'The IP of the adapter',
 			regex: self.REGEX_IP
 		},
 		{
@@ -78,7 +78,7 @@ instance.prototype.config_fields = function () {
 			id:    'port',
 			label: 'Device Port',
 			width: 12,
-			tooltip: 'The Port of the device',
+			tooltip: 'The Port of the adapter',
 			regex: self.REGEX_PORT,
 			default: '40302'
 		},
